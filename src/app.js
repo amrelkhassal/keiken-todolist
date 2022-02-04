@@ -9,7 +9,6 @@ App = {
         await App.loadContract();
         await App.render();
         await App.setLoading();
-        
         // To make sure it works with default account
         web3.eth.defaultAccount = web3.eth.accounts[0]
  
